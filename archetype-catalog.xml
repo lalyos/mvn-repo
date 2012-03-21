@@ -5,6 +5,12 @@
   <archetypes>
     <archetype>
       <groupId>com.epam.osgi</groupId>
+      <artifactId>ipojo-osgi-archetype</artifactId>
+      <version>1.0.0</version>
+      <description>ipojotest</description>
+    </archetype>
+    <archetype>
+      <groupId>com.epam.osgi</groupId>
       <artifactId>simple-osgi-archetype</artifactId>
       <version>1.0.0</version>
       <description>hello</description>
@@ -15,5 +21,4 @@
       <version>0.0.1-SNAPSHOT</version>
       <description>StandAlone j2se jpa project with eclipseLink implementations using embedded DerbiDB by lalyos</description>
     </archetype>
-  </archetypes>
 </archetype-catalog>
