@@ -7,6 +7,24 @@
       <groupId>org.lalyos</groupId>
       <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
       <version>0.0.1-SNAPSHOT</version>
+      <description>lunchMenu</description>
+    </archetype>
+    <archetype>
+      <groupId>org.lalyos</groupId>
+      <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+      <description>StandAlone j2se jpa project with eclipseLink implementations using embedded DerbiDB by lalyos</description>
+    </archetype>
+    <archetype>
+      <groupId>org.lalyos</groupId>
+      <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+      <description>StandAlone j2se jpa project with eclipseLink implementations using embedded DerbiDB by lalyos</description>
+    </archetype>
+    <archetype>
+      <groupId>org.lalyos</groupId>
+      <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
       <description>StandAlone j2se jpa project with eclipseLink implementations using embedded DerbiDB by lalyos</description>
     </archetype>
   </archetypes>
