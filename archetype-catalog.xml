@@ -4,34 +4,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <archetypes>
     <archetype>
-      <groupId>org.lalyos</groupId>
-      <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <description>lunchMenu</description>
-    </archetype>
-    <archetype>
-      <groupId>org.lalyos</groupId>
-      <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <description>StandAlone j2se jpa project with eclipseLink implementations using embedded DerbiDB by lalyos</description>
-    </archetype>
-    <archetype>
-      <groupId>org.lalyos</groupId>
-      <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <description>StandAlone j2se jpa project with eclipseLink implementations using embedded DerbiDB by lalyos</description>
-    </archetype>
-    <archetype>
-      <groupId>org.lalyos</groupId>
-      <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <description>StandAlone j2se jpa project with eclipseLink implementations using embedded DerbiDB by lalyos</description>
-    </archetype>
-    <archetype>
-      <groupId>org.lalyos</groupId>
-      <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <description>StandAlone j2se jpa project with eclipseLink implementations using embedded DerbiDB by lalyos</description>
+      <groupId>com.epam.osgi</groupId>
+      <artifactId>simple-osgi-archetype</artifactId>
+      <version>1.0.0</version>
+      <description>hello</description>
     </archetype>
     <archetype>
       <groupId>org.lalyos</groupId>
