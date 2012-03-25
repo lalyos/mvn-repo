@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+
+  <groupId>com.github.lalyos</groupId>
+  <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>maven-archetype</packaging>
+  <name>StandAlone (j2se) jpa project with eclipseLink implementations using embedded DerbiDB</name>
+  <description>StandAlone (j2se) jpa project with eclipseLink implementations using embedded DerbiDB</description>
+  <url>http://lalyos.github.com/standalone-jpa-archetype/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/lalyos/standalone-jpa-archetype.git</connection>
+    <developerConnection>scm:git:git@github.com:lalyos/standalone-jpa-archetype.git</developerConnection>
+    <url>https://github.com/lalyos/standalone-jpa-archetype</url>
+  </scm>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/lalyos/standalone-jpa-archetype/issues</url>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>lalyos</id>
+      <email>lalyos@yahoo.com</email>
+      <name>Lajos Papp</name>
+      <roles>
+        <role>owner</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <name>Sonatype Nexus Snapshots</name>
+      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>2.1</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.1</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

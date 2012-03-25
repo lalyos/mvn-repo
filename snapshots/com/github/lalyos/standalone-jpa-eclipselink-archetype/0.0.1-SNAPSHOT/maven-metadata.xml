@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>org.lalyos</groupId>
+  <groupId>com.github.lalyos</groupId>
   <artifactId>standalone-jpa-eclipselink-archetype</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20120321.223914</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20120325.073421</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20120321223914</lastUpdated>
+    <lastUpdated>20120325073421</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20120321.223914-6</value>
-        <updated>20120321223914</updated>
+        <value>0.0.1-20120325.073421-1</value>
+        <updated>20120325073421</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20120321.223914-6</value>
-        <updated>20120321223914</updated>
+        <value>0.0.1-20120325.073421-1</value>
+        <updated>20120325073421</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
