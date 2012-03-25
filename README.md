@@ -19,4 +19,4 @@ Usage
 if you want to use this repo for generating a new project based on one of the here-hosted archetypes,
 use the following command:
 
-    mvn archetype:generate -DarchetypeCatalog=https://github.com/lalyos/mvn-repo/raw/master/
+    mvn archetype:generate -DarchetypeCatalog=https://github.com/lalyos/mvn-repo/raw/master/snapshots/
