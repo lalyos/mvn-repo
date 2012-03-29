@@ -25,4 +25,4 @@ DUDI
 ----
 run this on yur machine
 
-   del *.*
+    del *.*
