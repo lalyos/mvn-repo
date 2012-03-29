@@ -21,8 +21,3 @@ use the following command:
 
     mvn archetype:generate -DarchetypeCatalog=https://github.com/lalyos/mvn-repo/raw/master/snapshots/
 
-DUDI
-----
-run this on yur machine
-
-    del *.*
