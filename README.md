@@ -20,3 +20,9 @@ if you want to use this repo for generating a new project based on one of the he
 use the following command:
 
     mvn archetype:generate -DarchetypeCatalog=https://github.com/lalyos/mvn-repo/raw/master/snapshots/
+
+DUDI
+----
+run this on yur machine
+
+   del *.*
