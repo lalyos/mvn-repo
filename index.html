@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Mvn-repo : maven repo to host artifacts" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Mvn-repo</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/lalyos/mvn-repo">Fork Me on GitHub</a>
+
+          <h1 id="project_title">Mvn-repo</h1>
+          <h2 id="project_tagline">maven repo to host artifacts</h2>
+
+          <section id="downloads">
+            <a class="zip_download_link" href="https://github.com/lalyos/mvn-repo/zipball/master">Download this project as a .zip file</a>
+            <a class="tar_download_link" href="https://github.com/lalyos/mvn-repo/tarball/master">Download this project as a tar.gz file</a>
+          </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>Private Maven Repo</h1>
+
+<h2>Purpose</h2>
+
+<p>this is my personal maven repo hosted on github. i created it to be able to easily host a publicly available
+maven repo, where i have full control. i will deploy my own project artifacts and archetype artifacts.</p>
+
+<p>once a project becomes more widely used, i will move the maven hosting to sonatype. but they have quite a lot of
+requirements: (<a href="https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide">https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide</a>) so as a quick 
+workaround i can publish here whatever artifact i want.</p>
+
+<p>i followed this description to set it up: (<a href="http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/">http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/</a>)</p>
+
+<h2>Usage</h2>
+
+<p>if you want to use this repo for generating a new project based on one of the here-hosted archetypes,
+use the following command:</p>
+
+<pre><code>mvn archetype:generate -DarchetypeCatalog=<a href="https://github.com/lalyos/mvn-repo/raw/master/snapshots/">https://github.com/lalyos/mvn-repo/raw/master/snapshots/</a>
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Mvn-repo maintained by <a href="https://github.com/lalyos">lalyos</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
